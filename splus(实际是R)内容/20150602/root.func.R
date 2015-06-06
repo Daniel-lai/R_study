@@ -6,6 +6,7 @@ root.func<-function() {
         orders=1:order
         ch_coef=as.character(coef)
         ch_orders=as.character(orders)
+        s1=paste("+(",ch_coef[-1],sep="")
         s2=paste("*x^",ch_orders,sep="")
         s3=paste(s2,")",sep="")
         s4=paste(s1,s3,sep="")
